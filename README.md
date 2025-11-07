@@ -45,7 +45,7 @@ pip install -r backend/requirements.txt
 Create a .env file inside backend/:
 
 OPENAI_API_KEY=your_key_here
-OPENAI_MODEL=gpt-4o-mini
+OPENAI_MODEL=gpt-4o
 
 ### 4. Install frontend dependencies
 
