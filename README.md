@@ -36,32 +36,40 @@ cd primary-care-agent
 
 ### 2. Create Python virtual environment
 
+```bash
 python3 -m venv .venv
 
 source .venv/bin/activate
 
 pip install -r backend/requirements.txt
+```
 
 ### 3. Set up environment variables
 
 Create a .env file inside backend/:
 
+```bash
 OPENAI_API_KEY=your_key_here
 OPENAI_MODEL=gpt-4o
+```
 
 ### 4. Install frontend dependencies
 
+```bash
 cd frontend
 
 npm install
 
 cd ..
+```
 
 ### Running the System
 
 From the project root:
 
+```bash
 ./run.sh
+```
 
 This automatically launches:
 
