@@ -20,7 +20,7 @@ The system simulates a structured primary-care consultation, performs red-flag d
 
 - **Frontend:** React + Vite
 - **Backend:** FastAPI (Python)
-- **LLM:** OpenAI API (`gpt-4o-mini` by default)
+- **LLM:** OpenAI API (`gpt-4o` by default)
 - **Runtime:** Node, Python 3.9+
 
 ---
