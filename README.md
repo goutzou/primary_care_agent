@@ -37,7 +37,9 @@ cd primary-care-agent
 ### 2. Create Python virtual environment
 
 python3 -m venv .venv
+
 source .venv/bin/activate
+
 pip install -r backend/requirements.txt
 
 ### 3. Set up environment variables
@@ -50,7 +52,9 @@ OPENAI_MODEL=gpt-4o
 ### 4. Install frontend dependencies
 
 cd frontend
+
 npm install
+
 cd ..
 
 ### Running the System
